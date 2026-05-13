@@ -1,0 +1,27 @@
+# 操作系统
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AI IDE
+.trae/
+.cursor/
+.windsurf/
+
+# CodeBuddy
+.codebuddy/
+
+# 临时文件
+*.tmp
+*.bak
+*.log
+
+# 生成的图片
+generated-images/
