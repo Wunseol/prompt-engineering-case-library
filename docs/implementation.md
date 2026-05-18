@@ -165,10 +165,10 @@
 
 | 工具 | 数据来源 | Star数 |
 |------|---------|--------|
-| Cursor | x1xhlol/system-prompts | 131K+ |
-| Windsurf | x1xhlol/system-prompts | 131K+ |
+| Cursor | x1xhlol/system-prompts | 82K+ |
+| Windsurf | x1xhlol/system-prompts | 82K+ |
 | Claude Code | Piebald-AI/claude-code-system-prompts | — |
-| Devin | x1xhlol/system-prompts | 131K+ |
+| Devin | x1xhlol/system-prompts | 82K+ |
 
 ### 4.3 模板来源
 

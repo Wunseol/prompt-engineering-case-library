@@ -70,7 +70,7 @@
 │   └── 02-提示词工程核心技术手册.md     ← 核心：17种技术原理+模板+效果数据
 │
 ├── 02-编程开发/                         ← 第2步：掌握编程场景
-│   ├── 01-编程开发提示词案例.md         ← 实战：14类编程开发提示词
+│   ├── 01-编程开发提示词案例.md         ← 实战：17类编程开发提示词（含技术栈与学习规划/项目文档适配/文档质量优化）
 │   └── 02-AI编程助手系统提示词案例.md   ← 深度：4大编程助手系统提示词分析
 │
 ├── 03-AI创作/                           ← 第3步：探索AI创作
@@ -115,7 +115,7 @@
 |------|------|---------|---------|
 | **入门** | [01-OpenAI提示词最佳实践](01-入门与理论/01-OpenAI提示词最佳实践.md) | 6大策略快速上手 | 10 min |
 | **核心技术** | [02-提示词工程核心技术手册](01-入门与理论/02-提示词工程核心技术手册.md) | 17种技术+模板+效果数据 | 45 min |
-| **编程开发** | [01-编程开发提示词案例](02-编程开发/01-编程开发提示词案例.md) | 14大类：需求拆解→Bug修复→Agent开发 | 40 min |
+| **编程开发** | [01-编程开发提示词案例](02-编程开发/01-编程开发提示词案例.md) | 17大类：需求拆解→Bug修复→Agent开发→技术栈与学习规划→文档质量优化 | 40 min |
 | **系统提示词** | [02-AI编程助手系统提示词案例](02-编程开发/02-AI编程助手系统提示词案例.md) | Cursor/Windsurf/Claude Code/Devin 深度分析 | 30 min |
 | **AI图像生成** | [01-AI图像生成提示词模板](03-AI创作/01-AI图像生成提示词模板.md) | 万能公式+风格控制+镜头语言+负面提示词 | 20 min |
 | **AI视频生成** | [02-AI视频生成提示词模板](03-AI创作/02-AI视频生成提示词模板.md) | 7个模板+运镜术语+分镜头设计 | 15 min |
@@ -181,6 +181,7 @@
 | **营销文案** | PAS框架、A/B测试文案、SEO优化 | [AI营销与商业提示词](07-AI营销与商业/01-AI营销与商业提示词模板.md) |
 | **创译** | 文化适配、品牌本地化、UI本地化 | [AI翻译与本地化提示词](08-AI翻译与本地化/01-AI翻译与本地化提示词模板.md) |
 | **学术写作** | IMRAD结构、审稿回应、文献综述 | [AI科研与学术提示词](09-AI科研与学术/01-AI科研与学术提示词模板.md) |
+| **学习规划** | 技术栈优化、学习大纲、文档适配、质量优化 | [编程开发提示词](02-编程开发/01-编程开发提示词案例.md) |
 
 ---
 
@@ -209,9 +210,9 @@
 | 项目 | Star | 用途 |
 |------|------|------|
 | [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | 50K+ | 核心技术体系 |
-| [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | 110K+ | 提示词模板参考 |
+| [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | 162K+ | 提示词模板参考 |
 | [ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts) | 7.9K+ | 领域提示词参考 |
-| [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | 131K+ | 系统提示词分析 |
+| [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | 82K+ | 系统提示词分析 |
 | [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) | — | 提示词编程框架 |
 | [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | — | 提示词评估工具 |
 
@@ -223,6 +224,7 @@
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
+| v2.6 | 2026-05 | 融合新提示词案例：新增技术栈与学习规划、项目文档适配、文档质量优化等分类；编程Agent对比表补充中文支持列 |
 | v2.5 | 2026-05 | 优化学习路线排序：开源生态移至末尾作参考附录，专业领域(05-09)连续排列 |
 | v2.3 | 2026-05 | 新增5大领域方向：数据分析、教育学习、营销商业、翻译本地化、科研学术 |
 | v2.2 | 2026-05 | 按学习路线分类文件夹、新增学习路线指南、优化导航链接 |
