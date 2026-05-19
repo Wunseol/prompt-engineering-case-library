@@ -1,10 +1,14 @@
-# 提示词工程案例库
+<div align="center">
+
+# 🧠 提示词工程案例库
+
+**一站式提示词工程知识库 —— 从核心原理到生产级模板，覆盖 10 大领域**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![中文](https://img.shields.io/badge/语言-中文-red.svg)]()
 
-> 一站式提示词工程知识库 —— 涵盖核心原理、生产级模板、编程开发实战、AI图像/视频生成、数据分析、教育学习、营销商业、翻译本地化、科研学术，以及开源生态索引。
+</div>
 
 ---
 
@@ -14,7 +18,7 @@
 
 **核心特色**：
 - **17 种核心技术**完整覆盖（零样本 → Chain of Draft → 任务分解）
-- **200+ 可直接使用的提示词模板**，跨 10 大领域
+- **150+ 可直接使用的提示词模板**，跨 10 大领域
 - **生产级系统提示词分析**（Cursor / Windsurf / Claude Code / Devin）
 - **多模型适配**（Claude / GPT-4 / DeepSeek / Qwen / Llama / Gemini）
 - **与真实开源项目关联**，每项技术都有论文出处和 GitHub 链接
@@ -23,7 +27,7 @@
 
 ## 学习路线
 
-> 详见 [学习路线指南](docs/learning-path.md)，以下是快速导航：
+> 详见 [学习路线指南](docs/01-学习路线.md)，以下是快速导航：
 
 ```
 第1步 → 01-入门与理论/       ← 建立基础认知（1-2天）
@@ -31,7 +35,7 @@
   └── 02-提示词工程核心技术手册   ← 再读：17种技术
 
 第2步 → 02-编程开发/         ← 掌握编程场景（2-3天）
-  ├── 01-编程开发提示词案例       ← 先读：14类场景
+  ├── 01-编程开发提示词案例       ← 先读：17类场景
   └── 02-AI编程助手系统提示词案例 ← 再读：4大工具分析
 
 第3步 → 03-AI创作/           ← 探索AI创作（1-2天）
@@ -40,7 +44,8 @@
   └── 03-人物图片转三视图提示词   ← 按需：角色设定
 
 第4步 → 04-办公写作/         ← 日常办公提效（1天）
-  └── 01-日常写作与办公提示词模板
+  ├── 01-日常写作与办公提示词模板
+  └── 02-AI面试与求职提示词
          ↓
 第5步 → 05~09 按需深入专业领域：
         05-AI数据分析/        ← SQL、统计、可视化
@@ -62,6 +67,7 @@
 │
 ├── README.md                           ← 你在这里
 ├── LICENSE                             ← MIT 开源协议
+├── DISCLAIMER.md                       ← 免责声明
 ├── CONTRIBUTING.md                     ← 贡献指南
 ├── .gitignore                          ← Git 忽略规则
 │
@@ -103,11 +109,11 @@
 │   └── 01-开源项目与资源索引.md         ← 生态：50+项目+论文+学习资源
 │
 └── docs/                               ← 项目文档
-    ├── learning-path.md                 ← 学习路线指南
-    ├── architecture.md                 ← 项目架构与源码导读
-    ├── requirements.md                 ← 需求文档与路线图
-    ├── implementation.md               ← 实施文档与检查清单
-    └── onboarding.md                   ← 新成员入职指南
+    ├── 01-学习路线.md                   ← 学习路线指南
+    ├── 02-项目架构.md                   ← 项目架构与源码导读
+    ├── 03-需求与路线图.md               ← 需求文档与路线图
+    ├── 04-实施与质量.md                 ← 实施文档与检查清单
+    └── 05-贡献者指南.md                 ← 贡献者指南
 ```
 
 ---
@@ -198,13 +204,13 @@
 1. **入门**：先读 [01-OpenAI提示词最佳实践](01-入门与理论/01-OpenAI提示词最佳实践.md)，掌握6大基本策略
 2. **深入**：按需查阅 [02-核心技术手册](01-入门与理论/02-提示词工程核心技术手册.md) 中对应的技术章节
 3. **实战**：根据场景进入对应文件夹，复制模板，替换 `{变量}` 即可使用
-4. **路线**：完整学习路线见 [学习路线指南](docs/learning-path.md)
+4. **路线**：完整学习路线见 [学习路线指南](docs/01-学习路线.md)
 
 ### 作为贡献者
 
 1. 阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 了解贡献规范
-2. 阅读 [docs/onboarding.md](docs/onboarding.md) 快速了解项目
-3. 阅读 [docs/architecture.md](docs/architecture.md) 理解项目架构
+2. 阅读 [docs/05-贡献者指南.md](docs/05-贡献者指南.md) 快速了解项目
+3. 阅读 [docs/02-项目架构.md](docs/02-项目架构.md) 理解项目架构
 4. Fork → 修改 → PR
 
 ---
@@ -215,11 +221,12 @@
 
 | 项目 | Star | 用途 |
 |------|------|------|
-| [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | 50K+ | 核心技术体系 |
+| [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | 75K+ | 核心技术体系 |
 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | 162K+ | 提示词模板参考 |
 | [ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts) | 7.9K+ | 领域提示词参考 |
 | [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | 82K+ | 系统提示词分析 |
-| [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) | — | 提示词编程框架 |
+| [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) | 34K+ | 提示词编程框架 |
+| [guidance-ai/guidance](https://github.com/guidance-ai/guidance) | 21K+ | 提示词约束控制框架 |
 | [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | — | 提示词评估工具 |
 
 完整列表见 [01-开源项目与资源索引](10-开源生态/01-开源项目与资源索引.md)。
@@ -230,6 +237,8 @@
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
+| v2.9 | 2026-06 | 文档体系重构：编号排序+Mermaid软件工程图+源码深度链接+导航栏；删除旧无编号文档 |
+| v2.8 | 2026-06 | README 专业化优化；新增免责声明；补充 .gitignore 规则；更新致谢和参考项目 |
 | v2.7 | 2026-06 | 新增3个文件：编程开发进阶（10类）、面试求职（8类）、产品经理（8类）；补充数据分析/教育学习/翻译本地化/科研学术各3个新案例 |
 | v2.6 | 2026-05 | 融合新提示词案例：新增技术栈与学习规划、项目文档适配、文档质量优化等分类；编程Agent对比表补充中文支持列 |
 | v2.5 | 2026-05 | 优化学习路线排序：开源生态移至末尾作参考附录，专业领域(05-09)连续排列 |
@@ -243,10 +252,37 @@
 
 ## 许可证
 
-本项目采用 [MIT License](LICENSE) 开源协议。
+本项目采用 [MIT License](LICENSE) 开源协议。使用前请阅读 [免责声明](DISCLAIMER.md)。
 
 ---
 
 ## 致谢
 
-感谢 OpenAI、Anthropic、Google 发布的官方文档，感谢所有被引用的开源项目作者和论文研究者，感谢 GitHub 社区的持续贡献。
+### 官方文档
+
+- [OpenAI](https://openai.com/) — 提示词最佳实践指南
+- [Anthropic](https://www.anthropic.com/) — Claude 提示词工程指南
+- [Google](https://ai.google/) — Prompt Engineering 白皮书（2025）
+
+### 开源项目
+
+感谢以下开源项目的作者和贡献者，本项目的核心技术体系、提示词模板和系统提示词分析均参考了这些项目的成果：
+
+- [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) — 核心技术体系参考
+- [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) — 提示词模板参考
+- [ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts) — 领域提示词参考
+- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) — 系统提示词分析参考
+- [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) — 提示词编程框架参考
+- [guidance-ai/guidance](https://github.com/guidance-ai/guidance) — 提示词约束控制参考
+
+### 学术论文
+
+- Wei et al. (2022) — Chain-of-Thought Prompting
+- Kojima et al. (2022) — Large Language Models are Zero-Shot Reasoners
+- Yao et al. (2023) — ReAct: Synergizing Reasoning and Acting / Tree of Thoughts
+- Wang et al. (2022) — Self-Consistency in Chain of Thought Reasoning
+- Zhou et al. (2022) — Least-to-Most Prompting
+
+### 社区
+
+感谢 GitHub 社区所有贡献者的持续反馈和内容补充。
